@@ -1,0 +1,1062 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.yellow{
+    color: #ffad12;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.header-itens{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95vw;
+}
+
+header img{
+    width: 180px;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+
+header ul button, header a{
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    background-color: transparent;
+}
+
+header a{
+    background-color: transparent;
+    padding: 11px;
+}   
+
+header ul a:hover{
+    background-color: rgb(163, 163, 163);
+}
+
+nav{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur(15px);
+    z-index: 100;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-properties{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur(15px);
+    z-index: 100;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-menu{
+    background-color: white;
+    width: 400px;
+    border-radius: 20px 0px 0px 20px;
+    height: 99vh;
+    padding: 30px;
+    animation: on .4s ease-in;
+}
+
+.nav-menu img{
+    width: 100px;
+}
+
+.nav-menu-top{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.nav-menu-top i{
+    cursor: pointer;
+}
+
+.nav-menu-top i:hover{
+    color: #ffb612;
+}
+
+.btn-nav{
+    padding: 30px;
+}
+
+nav button{
+    height: 40px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background-color:black;
+    color: aliceblue;
+}
+
+.nav-lista ul{
+    list-style-type: none;
+    font-size: 1.3rem;
+}
+.nav-lista li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.nav-lista li:hover{
+    color: #ffad12;
+}
+
+.nav-lista img{
+    width: 25px;
+}
+#academias{
+    width: 80px;
+    margin-right: 25px;
+}
+
+#comecar{
+    background-color: #d52b1e;
+    color: aliceblue;
+    padding: 11px;
+    border-radius: 25px;
+    max-height: 40px;
+    cursor: pointer;
+}
+
+#comecar:hover{
+    background-color: #ac261c;
+}
+
+#hamburguer{
+    width: 60px;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#hamburguer:hover{
+    color: #ffb612;
+}
+/* ----------------------------------------------------------- Header------------------------------------------------------- */
+
+#promo{
+    display: flex;
+    align-items: center;
+}
+
+.promo-img{
+    margin: auto;
+}
+
+.promo-img #horizontal{
+    width: 90vw;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.promo-img #vertical{
+    display: none;
+}
+
+/*---------------- PROMO ------------------------*/
+
+#encontre{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#encontre h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.enconte-a-academia{
+    background-color: #ffad12;
+    height: 30vh;
+    width: 90vw;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/sacada\ dark.jpg);
+    background-position: fixed;
+    background-size: 100% 150%;
+}
+
+.enconte-a-academia button{
+    height: 60px;
+    width: 320px;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    border: none;
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+}
+
+#lupa{
+    position: absolute;
+    right: 20px;
+}
+
+.enconte-a-academia button:hover{
+    background-color: #e6a327;
+    color: aliceblue;
+}
+
+/*-------------------------------Encontre a academia-------------------------------------------- */
+
+.tabela-planos{
+    display: flex;
+}
+
+#planos h1{
+    text-align: center;
+    font-size: 2rem;   
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#planos p{
+    text-align: center;
+}
+
+#equips{
+    padding: 10px;
+}
+
+#contrato p{
+    padding-top: 20px;
+    padding: 20px;
+}
+.info-plano{
+    padding: 50px;
+}
+
+.info-plano table{
+    width: 700px;   
+}
+
+#vantagem{
+    position: relative;
+    height: 30px;
+    width: 100px;
+    margin: auto;
+}
+
+#vantajoso{
+    position: absolute;
+    background-color: #ffad12;
+    padding: 5px;
+    font-size: .7rem;
+    border-radius: 5px 5px 0px 0px;
+    width: 130px;
+    right: -17px;
+    top: -34px;
+}
+
+.info-plano table, th, td{
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.info-plano table .lower{
+    font-size: .6rem;
+}
+
+.info-plano table .comeco{
+    text-align: start;
+}
+
+.info-plano i{
+    font-size: 1.5rem;
+}
+
+.top{
+    border-top: 1px solid rgb(107, 107, 107);
+}
+
+.border{
+    border-left: 2px solid #ffad12;
+    border-right: 2px solid #ffad12;
+    border-radius: 510px;
+}
+
+.topo{
+    border-top: 2px solid #ffad12;
+}
+.fundo{
+    border-bottom: 2px solid #ffad12;
+}
+
+.info-plano .clear{
+    border: none;
+}
+
+.plano-smart li{
+    border-top: 1px solid black;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.plano-smart clear{
+    border: none;
+}
+
+.fa-circle-check{
+    color: green;
+}
+.fa-x{
+    color: gray;
+}
+
+.tabela-de-planos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-agora{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-agora button{
+    height: 45px;
+    width: 350px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: #d52b1e;
+    color: aliceblue;
+}
+
+.btn-agora button:hover{
+    background-color: #ac261c;
+}
+
+.planos-card{
+    display: none;
+}
+
+.on{
+    display: block;
+}
+
+.off{
+    display: none;
+}
+
+#xp-smart{
+    text-align: center;
+    padding-top: 30px;
+}
+
+#card-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 5px;
+}
+
+#experiencia-smart{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.card-xp{
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.171);
+}
+
+.card-xp img{
+    width: 300px;
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.card-xp p{
+    text-align: center;
+    padding: 10px;
+}
+
+.card-xp:hover{
+    outline: 2px solid #ffad12;
+}
+
+.btn-comecar-agora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.comprar-agr3{
+    height: 50px;
+    width: 360px;
+    border-radius: 25px;
+    border: none;
+    background-color: #d52b1e;
+    font-size: 1.2rem;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.comprar-agr3:hover{
+    background-color: #ac261c;
+}
+
+#aulas-e-treinos h1{
+    text-align: center;
+    padding: 30px;
+    padding-top: 60px;
+    font-size: 1.7rem;
+}
+
+.aulas-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.aula-card{
+    width: 300px;
+    height: 530px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.164);
+    outline: 1px solid rgba(177, 177, 177, 0.205)
+}
+
+.aula-card:hover{
+    outline: 2px solid #ffad12;
+}
+
+.aula-card img{
+    width: 300px;
+    height: 200px;
+    margin: -10;
+    top: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.aula-card h3{
+    text-align: center;
+    background-color: #ffad12;
+    padding: 15px;
+}
+
+.aula-card p{
+    padding: 5px;
+}
+
+#haltere{
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+}
+
+#final-card{
+    text-align: center;
+}
+
+#final-card p{
+    padding: 10px;
+}
+
+#final-card button{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#final-card button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+.duracao-intensidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    position: relative;
+}
+
+.duracao-intensidade::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 250px;
+    background-color: black ;
+    position: absolute;
+    top: 90px;
+}
+
+.duracao{
+    text-align: center;
+}
+
+.intensidade{
+    text-align: center;
+}
+
+.fit-info{
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.saiba-mais{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3rem;
+}
+
+.saiba-mais a{
+    text-decoration: none;
+    color: black        ;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff2d9;
+    margin-top: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.app-container{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.app-info{
+    width: 30vw;
+    min-width: 520px;
+    padding: 20px;
+}
+
+.app-info ul{
+    padding-left: 30px;
+}
+.app-info li, h2{
+    padding: 5px;
+}
+
+.app-imgs{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.stores{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-bottom: 10px;
+}
+
+.stores img{
+    width: 150px;
+    cursor: pointer;
+}
+
+.aplicativo{
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 100%;
+    max-width: 530px;
+    height: 280px;
+    align-self: end;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-color: #ffb612;
+    border-radius: 10px;
+}
+
+.aplicativo img{
+    height: 350px;
+    width: 450px;
+    align-self: end;
+}
+
+#res{
+    text-align: center;
+    padding: 30px;
+}
+
+#resultados{
+    padding: 30px;
+}
+
+.res-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    padding-top: 20px;
+    position: relative;
+    box-shadow: 1px 1px 15px 5px rgba(0, 0, 0, 0.164);
+    border: 1px solid rgba(0, 0, 0, 0.048);
+
+
+}
+
+.res-card:hover{
+    outline: 2px solid #ffb612;
+}
+
+.res-card-bottom{
+    padding-top: 30px;
+}
+
+.res-card-bottom::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 80%;
+    background-color: rgb(165, 165, 165);
+    position: absolute;
+    bottom: 210px;
+    left: 25px;
+    
+}
+
+.res-card-bottom button{
+    margin-top: 20px;
+    height: 35px;
+    width: 220px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: #ffb612;
+    cursor: pointer;
+}
+
+.res-card-bottom button:hover{
+    background-color: #b97e10;
+}
+
+.textinho{
+    font-size: .5rem;
+    padding-top: 10px;
+}
+
+.rs{
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.prc{
+    font-size: 2rem;
+    padding-left: 5px;
+}
+
+.prc2{
+    font-size: 1.7rem;
+    display: inline-block;
+}
+
+.mes{
+    font-size: .7rem;
+    padding-left: 2px;
+}
+
+.card-energy{
+    padding-top: 13px;
+}
+
+.bottom-energy{
+    padding-top: 48px;
+}
+
+#news-teller{
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+}
+
+#news-teller h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(129, 129, 129);
+}
+
+.inpts, #news{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.inpts input{
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+}
+
+.inpts button{
+    height: 50px;
+    width: 170px;
+    border-radius: 30px;
+    font-size: 1rem;
+    border: none;
+    background-color: #ffad12;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.inpts button:hover{
+    background-color: #b97e10;
+}
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.flex-container-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 100px;
+
+}
+
+.footer-logo{
+    position: relative;
+    padding: 30px;
+}
+
+.footer-logo img{
+    width: 200px;
+}
+
+.aft::after{
+    position: absolute  ;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 60%;
+    background-color: rgb(102, 102, 102);
+    top: 133px
+}
+
+.bottom-border{
+    border-bottom: 1px solid rgba(175, 175, 175, 0.514);
+}
+
+.siga{
+    color: aliceblue;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+.siga i{
+    font-size: 2rem;
+    padding: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.f-list{
+    color: aliceblue;
+    vertical-align: middle;
+}
+
+.f-list ul{
+    list-style-type: none;  
+    
+}
+
+.f-list li{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer-list{
+    position: relative;
+    padding: 30px;
+}
+
+footer{
+    background-color: black;
+    padding: 30px;
+}
+
+.footer-wrapper{
+    width: 65%;
+}
+
+.footer-wrapper h1{
+    color: rgb(131, 131, 131);
+    text-align: center;
+    padding: 30px;
+    font-size: 1rem;
+}
+
+.footer-icons{
+    text-align: center;
+    padding: 20px;
+}
+
+@keyframes on{
+    0%{
+        opacity: 0%;
+        transform: translateX(50px);
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+@media (max-width: 936px){
+    
+
+    header img{
+        width: 125px;
+        height: 50px;
+        margin-left: 10px;
+    }
+
+    .header-itens{
+        height: 50px;
+        width: 100vw;
+    }
+
+    .header-itens a{
+        display: none;
+    }
+
+    header ul{
+        width: 194px;
+        padding-right: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+     /* ----------------------------------------------------------- Header------------------------------------------------------- */
+
+     #card-wrapper{
+        justify-content: flex-start;
+     }
+
+     #experiencia-smart{
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+
+    .qr, #scan{
+        display: none;
+    }
+
+    .app-info h1{
+        font-size: 2rem;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+}
+
+@media (max-width: 574px){
+    .promo-img #horizontal{
+        display: none;
+    }
+
+    .promo-img #vertical{
+        display: block;
+        width: 95vw;
+        border-radius: 20px;
+    }
+
+    .app-container{
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 769px){
+    .planos-card{
+        display: block;
+    }
+
+    .tabela-de-planos{
+        display: none;
+    }
+
+    .btn-agora{
+        display: none;
+    }
+
+    .planos-card{
+        width: 90vw;
+        margin: auto;
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 10px;
+    }
+
+    #planos .plano-valores h1{
+        text-align: left;
+        font-size: 1.3rem;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    #planos .plano-valores p{
+        text-align: left;
+        padding: 5px;
+        margin-left: 10px;
+    }
+
+    #planos .plano-valores .preco-final h1{
+        font-size: 1.6rem;
+    }
+
+    #planos .btn-mostrar-mais{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+
+    #planos .btn-mostrar-mais button{
+        height: 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 0;
+        background-color: transparent;
+        color: black;
+    }
+
+    .plano-valores button{
+        height: 40px;
+        width: 80%;
+        border-radius: 25px;
+        border: none;
+        background-color: #d52b1e;
+        font-size: 1.2rem;
+        color: aliceblue;
+        cursor: pointer;
+    }
+    .plano-valores button:hover{
+        background-color: #ac261c;
+    }
+
+    .planos-detalhes-black .lista-beneficios{
+        list-style-type: none;
+        padding: 15px;
+    }
+    .planos-detalhes-smart .lista-beneficios{
+        list-style-type: none;
+        padding: 15px;
+    }
+
+    .lista-beneficios i{
+        font-size: 1.5rem;
+        padding-right: 5px;
+    }
+
+    .lista-beneficios li{
+        padding-top: 20px;
+    }
+
+    .planos-card{
+        margin-top: 30px;
+    }
+
+    .vant{
+        position: relative;
+    }
+
+    #planos .vant #p-vant h3{
+        background-color: #ffad12;
+        width:135px;
+        padding: 3px;
+        font-size: .85rem;
+        border-radius: 5px;
+        position: absolute;
+        top: -20px;
+    }
+
+    .aulas-cards{
+        flex-direction: column;
+    }
+
+
+}
+

@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Fit | Experiência em Academia</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</head>
+<body>
+    <nav>
+        <div class="nav-contain">
+            <div class="nav-menu">
+                <div class="nav-menu-top">
+                    <img src="assets/img/smart-fit-logo.png" alt="">
+
+                    <i class="fa-solid fa-x" onclick="chamaNav()"></i>
+                </div>
+
+                <div class="btn-nav">
+                    <button>Começar Agora</button>
+                </div>
+
+                <div class="nav-lista">
+                    <ul>
+                        <li>Home</li>
+                        <li>Academias</li>
+                        <li>Espaço do cliente </li>
+                        <li>Seja um franqueado</li>
+                        <li>Smart Fit News</li>
+                        <li>Agende seu horário</li>
+                        <li>Planos</li>
+                        <li>Smart Fit Supps</li>
+                        <li>Imprensa</li>
+                        <li><img src="assets/img/br.png" alt=""> BR - </li>
+                        <li><img src="assets/img/faq.svg" alt=""> Dúvidas frequentes</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="header-itens">
+            <div class="logo"><img src="assets/img/smart-fit-logo.png" alt=""></div>
+            <ul>
+                <li><a href="#">Seja um franqueado</a></li>
+                <li><a href="#">Espaço do cliente</a></li>
+                <li id="academias"><a href="#">Academias</a></li>
+                <li id="comecar"><nobr>começar agora</nobr></li>
+                <li id="hamburguer"><i class="fa-solid fa-bars" onclick="chamaNav()"></i></li>
+            </ul>
+        </div>
+    </header>
+
+    <section id="promo">
+        <div class="promo-img">
+            <img id="horizontal" src="assets/img/promo.jpg" alt="">
+            <img id="vertical" src="assets/img/promo-vertical.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="encontre">
+        <h1>Encontre a academia <span class="yellow">mais próxima!</span></h1>
+
+        <div class="enconte-a-academia">
+            <nobr><button id="encontra-gym">Escolher academia <span id="lupa"><i class="fa-solid fa-magnifying-glass"></i></span></button></nobr>
+        </div>
+    </section>
+
+    <section id="planos">
+
+        <h1>A sua melhor opção na hora de <span class="yellow">levar uma vida + saudável.</span></h1>
+        <p id="equips">Os melhores equipamentos, infraestrutura e muito mais com mensalidades acessíveis.</p>
+     
+            <div class="tabela-de-planos">
+                <div class="info-plano">
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th colspan="3"> </th>
+                                <th>
+                                    Plano Smart
+                                    <p class="lower">sem fidelidade</p>
+                                </th>
+                                <th class="border topo">
+
+                                    <div id="vantagem">
+                                        <span id="vantajoso"><h3>O mais <b>vantajoso</b></h3></span>
+                                    </div>
+
+                                    Plano Black
+                                    <p class="lower">12 meses de fidelidade</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody >
+                            <tr class="top">
+                                <td colspan="3" class="comeco">Área de musculação e aeróbicos</td>
+                                <td><i class="fa-regular fa-circle-check"></i></td>
+                                <td class="border"><i class="fa-regular fa-circle-check"></i></td>
+                            </tr>
+                            <tr class="top">
+                                <td colspan="3" class="comeco">Smart Fit GO (treinos online)</td>
+                                <td><i class="fa-regular fa-circle-check"></i></td>
+                                <td class="border"><i class="fa-regular fa-circle-check"></i></td>
+                            </tr>
+                            <tr class="top">
+                                <td colspan="3" class="comeco">Smart Fit App</td>
+                                <td><i class="fa-regular fa-circle-check"></i></td>
+                                <td class="border"><i class="fa-regular fa-circle-check"></i></td>
+                            </tr>
+                            <tr class="top">
+                                <td colspan="3" class="comeco">Plano Vip 30 dias para um amigo</td>
+                                <td><i class="fa-solid fa-x"></i></td>
+                                <td class="border"><i class="fa-regular fa-circle-check"></i></td>
+                            </tr>
+                            <tr class="top">
+                                <td colspan="3" class="comeco">Acesso ilimitado a +1.000 academias da rede</td>
+                                <td><i class="fa-solid fa-x"></i></td>
+                                <td class="border"><i class="fa-regular fa-circle-check"></i></td>
+                            </tr>
+                            <tr class="top">
+                                <td colspan="3" class="comeco">Leve amigos para treinar com você</td>
+                                <td><i class="fa-solid fa-x"></i></td>
+                                <td class="border"><i class="fa-regular fa-circle-check"></i></td>
+                            </tr>
+                            <tr class="top">
+                                <td colspan="3" class="comeco">Cadeira de massagem</td>
+                                <td><i class="fa-solid fa-x"></i></td>
+                                <td class="border"><i class="fa-regular fa-circle-check"></i></td>
+                
+                            </tr>
+                            <tr class="top">
+                                <td colspan="3"></td>
+                                <td>
+                                    ̶R̶$̶ ̶8̶9̶,̶9̶0̶*̶
+                                    <p><b>R$ 9,90*</b></p>
+                                </td>
+                                <td class="border fundo">
+                                    ̶R̶$̶ ̶1̶2̶9̶,̶9̶0̶*̶
+                                    <p><b>R$ 9,90*</b></p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>                               
+                </div>
+            </div>
+        
+            <div class="btn-agora">
+                <button>Começar agora</button>
+            </div>
+
+            <div class="planos-card black">
+                <div class="plano-valores vant">
+                    <span id="p-vant"><h3>O mais <b>vantajoso</b></h3></span>
+
+                    <h1>Plano <b>black</b></h1>
+
+                    <p>Sem taxa de manutenção anual</p>
+
+                    <p>12 meses de fidelidade</p>
+
+                    <p>R̶$̶ ̶1̶2̶9̶,̶9̶0̶*̶</p>
+
+                    <span class="preco-final">
+                        <h1>R$ 9,90* </h1>
+                    </span>
+
+                    <div class="btn-comecar-agora"> <button id="comprar-agr">Começar agora</button></div>
+
+                    <div class="planos-detalhes-black">
+                        <ul class="lista-beneficios">
+                            <li><i class="fa-regular fa-circle-check"></i> Área de musculação e aeróbicos </li>
+                            <li><i class="fa-regular fa-circle-check"></i> Smart Fit GO (treinos online) </li>
+                            <li><i class="fa-regular fa-circle-check"></i> Smart Fit App </li>
+                            <li><i class="fa-regular fa-circle-check"></i> Plano Vip 30 dias para um amigo </li>
+                            <li><i class="fa-regular fa-circle-check"></i> Acesso ilimitado a +1.000 academias da rede </li>
+                            <li><i class="fa-regular fa-circle-check"></i> Leve amigos para treinar com você </li>
+                            <li><i class="fa-regular fa-circle-check"></i> Cadeira de massagem </li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-mostrar-mais">
+                         <button class="mostrar" id="mostraBlack" onclick="mostrarMais('black')">Mostrar menos -</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="planos-card smart">
+                <div class="plano-valores">
+                    <h1>Plano <b>Smart</b></h1>
+
+                    <p>Sem taxa de manutenção anual</p>
+
+                    <p>Sem fidelidade</p>
+
+                    <p>R̶$̶ ̶8̶9̶,̶9̶0̶*̶</p>
+
+                    <span class="preco-final">
+                        <h1>R$ 9,90* </h1>
+                    </span>
+
+                    <div class="btn-comecar-agora"> <button id="comprar-agr2">Começar agora</button></div>
+
+                    <div class="planos-detalhes-smart off">
+                        <ul class="lista-beneficios">
+                            <li><i class="fa-regular fa-circle-check"></i> Área de musculação e aeróbicos </li>
+                            <li><i class="fa-regular fa-circle-check"></i> Smart Fit GO (treinos online) </li>
+                            <li><i class="fa-regular fa-circle-check"></i> Smart Fit App </li>
+                        </ul>
+                    </div>
+
+                    <div class="btn-mostrar-mais">
+                         <button class="mostrar" id="mostraSmart" onclick="mostrarMais('smart')">Mostrar mais +</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <span id="contrato">
+                <p>Você será encaminhado(a) para o processo de escolha e contratação do seu plano Smart Fit. </p>
+            </span>
+    </section>
+
+    <h1 id="xp-smart">Experiência <span class="yellow">Smart Fit</span></h1>
+
+    <section id="experiencia-smart">
+        <div id="card-wrapper">
+            <div class="card-xp" id="xp-card-1">
+                <img src="assets/img/equipamentos1.jpg" alt="">
+                <p>Equipamentos de alto padrão</p>
+            </div>
+            <div class="card-xp" id="xp-card-2">
+                <img src="assets/img/aulasColetivas.jpg" alt="">
+                <p>Salas exclusivas de aulas coletivas</p>
+            </div>
+            <div class="card-xp" id="xp-card-3">
+                <img src="assets/img/Musculação.jpg" alt="">
+                <p>Áreas de musculação e cárdio</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="btn-comecar-agora">
+        <button class="comprar-agr3">Começar agora</button>
+    </div>
+
+    <section id="aulas-e-treinos">
+        <h1>Aulas e treinos <span class="yellow">exclusivos!</span></h1>
+
+        <div class="aulas-cards">
+            <div class="aula-card">
+                <img src="assets/img/fitdance.jpg" alt="">
+
+                <h3>FITDANCE</h3>
+
+                <div class="duracao-intensidade">
+                    <div class="duracao">
+                        <i class="fa-regular fa-clock"></i>
+                        <p><b>Duração</b></p>
+                        <p>30/45/60 min</p>
+                    </div>
+
+                    <div class="intensidade">
+                        <i class="fa-solid fa-bolt"></i>
+                        <p><b>intensidade</b></p>
+                        <p>Alta</p>
+                    </div>
+                </div>
+
+                <div class="fit-info">
+                    <p>Para você manjar de todos os passinhos, as aulas de dança da Smart Fit são ministrada por professores licenciados pela FitDance</p>
+                </div>
+
+                <div class="saiba-mais">
+                    <a href="#">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="aula-card">
+                <img src="assets/img/Cross.jpg" alt="">
+
+                <h3>SMART CROSS</h3>
+
+                <div class="duracao-intensidade">
+                    <div class="duracao">
+                        <i class="fa-regular fa-clock"></i>
+                        <p><b>Duração</b></p>
+                        <p>30 min</p>
+                    </div>
+
+                    <div class="intensidade">
+                        <i class="fa-solid fa-bolt"></i>
+                        <p><b>intensidade</b></p>
+                        <p>Alta</p>
+                    </div>
+                </div>
+
+                <div class="fit-info">
+                    <p>Emagrecimento com ganho de condicionamento físico em apenas 30 minutos? Esse é o Smart Cross, nosso treino de funcional coletivo de alta intensidade</p>
+                </div>
+
+                <div class="saiba-mais">
+                    <a href="#">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="aula-card">
+                <img src="assets/img/body.jpg" alt="">
+
+                <h3>BODY COMBAT</h3>
+
+                <div class="duracao-intensidade">
+                    <div class="duracao">
+                        <i class="fa-regular fa-clock"></i>
+                        <p><b>Duração</b></p>
+                        <p>30/45/60 min</p>
+                    </div>
+
+                    <div class="intensidade">
+                        <i class="fa-solid fa-bolt"></i>
+                        <p><b>intensidade</b></p>
+                        <p>Alta</p>
+                    </div>
+                </div>
+
+                <div class="fit-info">
+                    <p>Karatê, jiu-jitsu, Capoeira, Kung Fu e Taekwondo são só algumas das inspirações para a aula de BodyCombat. Esse treino ainda trabalha todo o corpo</p>
+                </div>
+
+                <div class="saiba-mais">
+                    <a href="#">Saiba mais</a>
+                </div>
+            </div>
+
+            <div class="aula-card" id="final-card">
+                <img id="haltere" src="assets/img/Haltere Illustration.png" alt="">
+
+                <h2>Tem mais!</h2>
+
+                <p>Clique no botão abaixo e conheca todas as aulas e treinos disponiveis na <b>Smart Fit</b> para você!</p>
+
+                <button>Quero conhecer!</button>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+
+    <div class="btn-comecar-agora">
+        <button class="comprar-agr3">Começar agora</button>
+    </div>
+
+    <section id="app">
+        <div class="app-container">
+            <div class="app-info">
+                    <h1>Com o Smart Fit App o aluno Smart pode:</h1>
+                    <ul>
+                        <li>Acompanhar o progresso de treino</li>
+                        <li>Ver os exercícios em vídeo</li>
+                        <li>Assistir às aulas on-line onde e quando quiser</li>
+                    </ul>
+                    <h2><b>Sem pagar nada a mais por isso!</b></h2>
+                    <span id="scan">
+                        <h2>Escaneie o código para baixar grátis</h2>
+                    </span>
+                <div class="app-imgs">
+                    <div class="qr">
+                        <img src="assets/img/qr.png" alt="">
+                    </div>
+                    <div class="stores">
+                        <img src="assets/img/google-play-badge.png" alt="">
+                        <img src="assets/img/app-stor-badge.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="aplicativo">
+                <img src="assets/img/app.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <h1 id="res">Quer acelerar os <span class="yellow">resultados</span>?</h1>
+
+    <section id="resultados">
+        <div class="res-cards">
+            <div class="res-card">
+                <div class="res-card-top">
+                    <img src="assets/img/smart-coach.svg" alt="">
+                    <h2><b>Smart Fit Coach</b></h2>
+                    <p>Foco na disciplina e no resultado: orientação individual por chamada de vídeo. </p>
+                </div>
+
+                <div class="res-card-bottom">
+                    <h1><span class="rs">R$</span><span class="prc">49</span>,<span class="pc2">90</span><span class="mes">/mês</span></h1>
+                    <p class="textinho">*Permanencia de 3 meses</p>
+                    <button class="btn-prc">Assine agora</button>
+                </div>
+
+            </div>
+
+            <div class="res-card">
+                <div class="res-card-top">
+                    <img src="assets/img/smart-nutri.svg" alt="">
+                    <h2><b>Smart Fit Nutri</b></h2>
+                    <p>Consulta online com nutricionista para alcançar resultados e alimentação saudável.  </p>
+                </div>
+
+                <div class="res-card-bottom">
+                    <h1><span class="rs">R$</span><span class="prc">39</span>,<span class="pc2">90</span><span class="mes">/mês</span></h1>
+                    <p class="textinho">*Permanência mínima 12 meses</p>
+                    <button class="btn-prc">Assine agora</button>
+                </div>
+
+            </div>
+
+            <div class="res-card">
+                <div class="res-card-top card-energy">
+                    <img src="assets/img/smart-energy.svg" alt="">
+                    <h2><b>Smart Fit Energy</b></h2>
+                    <p>Bebidas funcionais para antes ou depois do treino. </p>
+                </div>
+
+                <div class="res-card-bottom bottom-energy">
+                    <h1><span class="rs">R$</span><span class="prc">19</span>,<span class="pc2">90</span><span class="mes">/mês</span></h1>
+                    <p class="textinho">*30 dias pra experimentar</p>
+                    <button class="btn-prc">Assine agora</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="news-teller">
+        <h1>Receba novidades e promoções exclusivas da Smart Fit.</h1>
+        <div id="#news">
+            <div class="inpts">
+                <div class="emai-input">
+                    <input type="email" placeholder="Informe aqui o seu email">
+                </div>
+                <div class="news-btn">
+                    <button class="assine">Cadastrar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="flex-container">
+        <div class="footer-wrapper">
+            <div class="footer-logo flex-container bottom-border">
+                <img src="assets/img/smart-fit-logo.png" alt="">
+            </div>
+            <div class="siga bottom-border">
+                <h2>Siga a Smart Fit</h2>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-spotify"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div class="footer-list aft2 flex-container-wrap bottom-border">
+                <div class="institucional f-list">
+                    <h2>Institucional</h2>
+                    <ul>
+                        <li>Sobre</li>
+                        <li>Conceito</li>
+                        <li>Investidores</li>
+                        <li>Central de Ajuda</li>
+                        <li>Fale Conosco</li>
+                        <li>Edital Smart Fit </li>
+                        <li>Aviso de Privacidade</li>
+                    </ul>
+                </div>
+                <div class="footer-planos f-list">
+                    <h2>Planos</h2>
+                    <ul>
+                        <li>Planos</li>
+                        <li>Contratos</li>
+                        <li>Planos corporativos</li>
+                        <li>Smart Fit Supps</li>
+                        <li>Smart Fit Plus</li>
+                    </ul>
+                </div>
+                <div class="corporativo f-list">
+                    <h2>Corporativo</h2>
+                    <ul>
+                        <li>Imprensa</li>
+                        <li>Quero ser um franqueado</li>
+                        <li>Divulgue sua marca</li>
+                        <li>Trabalhe Conosco</li>
+                        <li>Graduação Ed. Física EAD</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h1>Desenvolvido por Brenno Vinicius Dos Santos</h1>
+        </div>
+    </footer>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
